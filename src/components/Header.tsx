@@ -31,6 +31,9 @@ const Header = () => {
             <a href="#/approach" className="text-foreground hover:text-primary transition-colors">
               Our Approach
             </a>
+            <a href="#/kyb" className="text-foreground hover:text-primary transition-colors">
+              KYB
+            </a>
             <a href="#/success-stories" className="text-foreground hover:text-primary transition-colors">
               Success Stories
             </a>
@@ -64,6 +67,9 @@ const Header = () => {
               </a>
               <a href="#/approach" className="text-foreground hover:text-primary transition-colors">
                 Our Approach
+              </a>
+              <a href="#/kyb" className="text-foreground hover:text-primary transition-colors">
+                KYB
               </a>
               <a href="#/success-stories" className="text-foreground hover:text-primary transition-colors">
                 Success Stories

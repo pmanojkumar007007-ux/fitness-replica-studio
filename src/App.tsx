@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import SuccessStories from "./pages/SuccessStories";
 import Contact from "./pages/Contact";
 import Approach from "./pages/Approach";
+import KYB from "./pages/KYB";
 import CelebrityImpact from "./pages/CelebrityImpact";
 import NotFound from "./pages/NotFound";
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/success-stories" element={<SuccessStories />} />
           <Route path="/approach" element={<Approach />} />
+          <Route path="/kyb" element={<KYB />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/celebrity-impact" element={<CelebrityImpact />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
