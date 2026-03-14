@@ -15,11 +15,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
              <a href="#/">
-                <img src="/logo.png" alt="Azaraiah Coaching Studio Logo" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center" />
+                <img src="/logo.png" alt="AZARAIAHZ Logo" className="w-10 h-10 rounded-full bg-primary flex items-center justify-center" />
               </a>
             <div>
-              <h1 className="text-xl font-bold text-primary">Azaraiah</h1>
-              <p className="text-xs text-muted-foreground uppercase tracking-wider">Coaching Studio</p>
+              <h1 className="text-xl font-bold text-primary">AZARAIAHZ</h1>
+              <p className="text-xs text-muted-foreground uppercase tracking-wider">Holistic Health • Transformation</p>
             </div>
           </div>
 
@@ -28,32 +28,9 @@ const Header = () => {
             <a href="#/" className="text-foreground hover:text-primary transition-colors">
               About
             </a>
-            
-            {/* Programs Dropdown */}
-            {/* <div className="relative">
-              <button
-                onClick={() => setIsProgramsOpen(!isProgramsOpen)}
-                className="flex items-center space-x-1 text-foreground hover:text-primary transition-colors"
-              >
-                <span>Programmes</span>
-                <ChevronDown className={`w-4 h-4 transition-transform ${isProgramsOpen ? 'rotate-180' : ''}`} />
-              </button>
-              
-              {isProgramsOpen && (
-                <div className="absolute top-full left-0 mt-2 w-64 bg-card border border-border rounded-lg shadow-lg py-2">
-                  <a href="#/programmes#transformation" className="block px-4 py-2 text-card-foreground hover:bg-secondary">
-                    Six Week Transformation Challenge
-                  </a>
-                  <a href="#/programmes#small-group" className="block px-4 py-2 text-card-foreground hover:bg-secondary">
-                    Small Group Personal Training
-                  </a>
-                  <a href="#/programmes#one-on-one" className="block px-4 py-2 text-card-foreground hover:bg-secondary">
-                    1:1 Personal Training
-                  </a>
-                </div>
-              )}
-            </div> */}
-
+            <a href="#/approach" className="text-foreground hover:text-primary transition-colors">
+              Our Approach
+            </a>
             <a href="#/success-stories" className="text-foreground hover:text-primary transition-colors">
               Success Stories
             </a>
@@ -65,7 +42,7 @@ const Header = () => {
             </a>
             
             <Button className="btn-primary" onClick={() => setIsContactModalOpen(true)}>
-              TRAIN WITH US
+              GET STARTED
             </Button>
           </nav>
 
@@ -85,9 +62,9 @@ const Header = () => {
               <a href="#/" className="text-foreground hover:text-primary transition-colors">
                 Home
               </a>
-              {/* <a href="#/programmes" className="text-foreground hover:text-primary transition-colors">
-                Programmes
-              </a> */}
+              <a href="#/approach" className="text-foreground hover:text-primary transition-colors">
+                Our Approach
+              </a>
               <a href="#/success-stories" className="text-foreground hover:text-primary transition-colors">
                 Success Stories
               </a>
@@ -98,7 +75,7 @@ const Header = () => {
                 Contact
               </a>
               <Button className="btn-primary w-full" onClick={() => setIsContactModalOpen(true)}>
-                TRAIN WITH US
+                GET STARTED
               </Button>
             </div>
           </nav>

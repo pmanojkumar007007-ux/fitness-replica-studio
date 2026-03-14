@@ -2,7 +2,9 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import ReviewsSection from "@/components/ReviewsSection";
-import TransformationSection from "@/components/TransformationSection";
+import PhilosophySection from "@/components/PhilosophySection";
+import FounderSection from "@/components/FounderSection";
+import AZUAppSection from "@/components/AZUAppSection";
 import ContactSection from "@/components/ContactSection";
 
 const Index = () => {
@@ -11,8 +13,10 @@ const Index = () => {
       <Header />
       <HeroSection />
       <AboutSection />
+      <PhilosophySection />
       <ReviewsSection />
-      <TransformationSection />
+      <FounderSection />
+      <AZUAppSection />
       <ContactSection />
     </div>
   );
